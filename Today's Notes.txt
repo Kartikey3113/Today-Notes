@@ -1,0 +1,38 @@
+SIR CODE --->
+{
+Name:"kartikey kumawat"
+Age:20
+Email:"Aadi****.com"
+Phone:8387959668
+CGPA:8.1
+Skills:["c","Java","C++"] -> Skills["Python","MySQL","NoSQL"] -> Array Objects
+Address:{                            Address{ -> Embedded Objects
+city:"Jaipur"                        City:"Gujrat" -> DBname creation
+ZIPcode:                             ZIPcode:309147
+State:"Rajasthan"                    State:"Vadodara"
+
+1. use("Poornima")
+2. collection creation/To creation db.creation("Student")
+3. db.student.insertone({})
+
+MY CODE --->
+use("e-commerce");
+db.createCollection("product");
+db.product.insertOne ({
+    Name: "biscuit",
+    "Mfd date": "10-09-2026",
+    "Exp date": "8-06-2029",
+    Price: 55
+});
+db.product.insertOne ({
+    Name: "Shampoo",
+    "Mfd date": "01-09-2015",
+    "Exp date": "01-09-2055",
+    Price: 2k
+});
+
+MySQL           NoSQL
+1. Database     Database
+2. Table        Collection
+3. Rows         Document
+4. Column       feikes
